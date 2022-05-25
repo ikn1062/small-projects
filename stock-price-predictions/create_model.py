@@ -4,7 +4,6 @@ import pandas as pd
 import pandas_datareader as pdr
 import datetime as dt
 
-from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 from keras.callbacks import EarlyStopping, ModelCheckpoint
