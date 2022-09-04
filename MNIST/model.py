@@ -36,4 +36,5 @@ def make_model():
 
     # Outputs the loss and accuracy of the model
     val_loss, val_acc = model.evaluate(X_test, y_test)
+    # print(f"val_loss: {val_loss}, val_acc = {val_acc}")
 
